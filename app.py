@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from openenv.core.env_server import create_app
 from models import MergeAction, MergeObservation
-from server.merge_environment import MergeEnvironment
+from merge_environment import MergeEnvironment
 
 
 def create_merge_environment():
@@ -34,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
