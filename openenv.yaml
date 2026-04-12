@@ -1,0 +1,24 @@
+name: git_merge_env
+version: "1.0.0"
+description: >
+  Git Merge Conflict Resolution Environment — An OpenEnv environment where AI agents
+  learn to resolve real git merge conflicts in Python source files. Features 3 difficulty
+  levels (easy/medium/hard) with deterministic grading, partial-credit rewards, and
+  semantic dependency challenges that test whether agents understand code structure.
+tags:
+  - openenv
+  - git
+  - merge-conflicts
+  - code-review
+  - developer-tools
+  - real-world
+tasks:
+  - id: easy
+    description: "Single conflict in a config file. Accept the feature branch's database migration settings."
+    difficulty: easy
+  - id: medium
+    description: "Three conflicts in a utility module: imports, constants, and function logic. Accept enhanced parsing features."
+    difficulty: medium
+  - id: hard
+    description: "Five semantically-dependent conflicts in a user service class. Method renames cascade through callers."
+    difficulty: hard
