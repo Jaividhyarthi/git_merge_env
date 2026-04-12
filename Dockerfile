@@ -33,7 +33,8 @@ EXPOSE 7860
 # Default: run inference.py (validator mode).
 # To run the server instead, override with:
 #   docker run ... your-image uvicorn server.app:app --host 0.0.0.0 --port 7860
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["uvicorn", "server.app:app", "--host", "0.0.0.0", "--port", "7860"]
+
 
 
 
