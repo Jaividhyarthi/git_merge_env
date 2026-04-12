@@ -1,3 +1,12 @@
+---
+title: Git Merge Env
+emoji: ??
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 # Git Merge Conflict Resolution Environment
 
 An OpenEnv environment where AI agents learn to resolve **real git merge conflicts** in Python source files. Every developer encounters merge conflicts — this environment provides a standardized, graded testbed for evaluating how well AI agents can understand code structure, detect semantic dependencies, and produce clean, correct resolutions.
@@ -157,3 +166,4 @@ git_merge_env/
 ## License
 
 MIT
+
