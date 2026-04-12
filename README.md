@@ -1,6 +1,6 @@
 ---
 title: Git Merge Env
-emoji: ??
+emoji: robot
 colorFrom: blue
 colorTo: green
 sdk: docker
@@ -166,5 +166,6 @@ git_merge_env/
 ## License
 
 MIT
+
 
 
