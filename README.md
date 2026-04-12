@@ -1,6 +1,6 @@
 ---
 title: Git Merge Env
-emoji: robot
+emoji: 🔄
 colorFrom: blue
 colorTo: green
 sdk: docker
